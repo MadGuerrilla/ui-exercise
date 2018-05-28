@@ -68,7 +68,7 @@ exports.handlebarsBuild = () => ({
 			entry: paths.app + '/hbs/default.hbs',
 			output: paths.build + '/index.html',
 
-			//data: paths.app + '/assets/data/pages.json',
+			data: paths.app + '/assets/data/pages.json',
 
 			// globbed path to partials, where folder/filename is unique
 			partials: [paths.app + '/hbs/partials/*.hbs'],

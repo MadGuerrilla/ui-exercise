@@ -43,7 +43,7 @@ const productionConfig = merge([
 		},
 	}),
 	parts.compression(),
-	//parts.imageCompression()
+	parts.imageCompression()
 ]);
 
 const developmentConfig = merge([
