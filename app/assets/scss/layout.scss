@@ -20,6 +20,7 @@ img {
 .l- {
     &content {
         padding: 15px;
+        width: 100%;
 
         &--main {
             @media only screen and (min-width: 767px) {
@@ -40,6 +41,7 @@ img {
                     max-width: 33.33%;
                 }
             }
+
             &:nth-child(3n+4) {
                 clear: left;
             }
@@ -72,9 +74,11 @@ img {
                 color: $grey;
                 margin: 0;
                 padding: 10px 0;
+
                 a {
                     color: $grey;
                     text-decoration: none;
+
                     &:hover {
                         color: $offBlack;
                     }
