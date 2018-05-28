@@ -1,0 +1,9 @@
+.o- {
+    &header {
+        width: 100%;
+        min-height: 50px;
+        background-color: $lightestGrey;
+        margin: 0 auto;
+        float: left;
+    }
+}
